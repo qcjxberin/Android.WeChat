@@ -29,65 +29,76 @@
         private void InitializeComponent()
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.txt_outPut = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txt_loginUserName = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.btn_login = new System.Windows.Forms.Button();
             this.txt_loginPassword = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.btn_login = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
+            this.txt_loginUserName = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.button2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.button8 = new System.Windows.Forms.Button();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.button9 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
             this.txt_contactSyncWxid = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button9 = new System.Windows.Forms.Button();
             this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txt_verWxid = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txt_verV1 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.txt_verTicket = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.txt_verAnticket = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
+            this.button10 = new System.Windows.Forms.Button();
             this.txt_verContent = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.button10 = new System.Windows.Forms.Button();
+            this.txt_verAnticket = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txt_verTicket = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txt_verV1 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txt_verWxid = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.txt_verCode = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.tabPage8 = new System.Windows.Forms.TabPage();
-            this.label13 = new System.Windows.Forms.Label();
-            this.txt_msgWxid = new System.Windows.Forms.TextBox();
+            this.button11 = new System.Windows.Forms.Button();
             this.txt_msgContext = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
+            this.txt_msgWxid = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.txt_outPut = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.txt_unicode = new System.Windows.Forms.TextBox();
             this.button12 = new System.Windows.Forms.Button();
             this.label15 = new System.Windows.Forms.Label();
             this.txt_Str = new System.Windows.Forms.TextBox();
+            this.txt_msgid = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.button13 = new System.Windows.Forms.Button();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.label17 = new System.Windows.Forms.Label();
+            this.txt_groupIdList = new System.Windows.Forms.TextBox();
+            this.button14 = new System.Windows.Forms.Button();
+            this.txt_groupId = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.button15 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.tabPage1.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tabPage5.SuspendLayout();
             this.tabPage6.SuspendLayout();
             this.tabPage7.SuspendLayout();
             this.tabPage8.SuspendLayout();
+            this.tabPage9.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -100,11 +111,43 @@
             this.tabControl1.Controls.Add(this.tabPage6);
             this.tabControl1.Controls.Add(this.tabPage7);
             this.tabControl1.Controls.Add(this.tabPage8);
+            this.tabControl1.Controls.Add(this.tabPage9);
             this.tabControl1.Location = new System.Drawing.Point(13, 13);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(875, 334);
             this.tabControl1.TabIndex = 0;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.label4);
+            this.tabPage2.Controls.Add(this.button1);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(867, 305);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "初始化";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(51, 47);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(226, 15);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "初始化web服务。第一次需要调用";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(51, 91);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(129, 31);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "协议初始化";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // tabPage1
             // 
@@ -121,50 +164,15 @@
             this.tabPage1.Text = "登录";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
+            // btn_login
             // 
-            this.tabPage2.Controls.Add(this.label4);
-            this.tabPage2.Controls.Add(this.button1);
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(867, 305);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "初始化";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // txt_outPut
-            // 
-            this.txt_outPut.Location = new System.Drawing.Point(13, 371);
-            this.txt_outPut.Multiline = true;
-            this.txt_outPut.Name = "txt_outPut";
-            this.txt_outPut.Size = new System.Drawing.Size(460, 231);
-            this.txt_outPut.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 350);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 15);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "输出：";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(49, 29);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 15);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "账号：";
-            // 
-            // txt_loginUserName
-            // 
-            this.txt_loginUserName.Location = new System.Drawing.Point(108, 24);
-            this.txt_loginUserName.Name = "txt_loginUserName";
-            this.txt_loginUserName.Size = new System.Drawing.Size(223, 25);
-            this.txt_loginUserName.TabIndex = 1;
+            this.btn_login.Location = new System.Drawing.Point(52, 137);
+            this.btn_login.Name = "btn_login";
+            this.btn_login.Size = new System.Drawing.Size(138, 31);
+            this.btn_login.TabIndex = 4;
+            this.btn_login.Text = "登录";
+            this.btn_login.UseVisualStyleBackColor = true;
+            this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
             // 
             // txt_loginPassword
             // 
@@ -182,34 +190,21 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "密码：";
             // 
-            // btn_login
+            // txt_loginUserName
             // 
-            this.btn_login.Location = new System.Drawing.Point(52, 137);
-            this.btn_login.Name = "btn_login";
-            this.btn_login.Size = new System.Drawing.Size(138, 31);
-            this.btn_login.TabIndex = 4;
-            this.btn_login.Text = "登录";
-            this.btn_login.UseVisualStyleBackColor = true;
-            this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
+            this.txt_loginUserName.Location = new System.Drawing.Point(108, 24);
+            this.txt_loginUserName.Name = "txt_loginUserName";
+            this.txt_loginUserName.Size = new System.Drawing.Size(223, 25);
+            this.txt_loginUserName.TabIndex = 1;
             // 
-            // button1
+            // label2
             // 
-            this.button1.Location = new System.Drawing.Point(51, 91);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 31);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "协议初始化";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(51, 47);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(226, 15);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "初始化web服务。第一次需要调用";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(49, 29);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(52, 15);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "账号：";
             // 
             // tabPage3
             // 
@@ -223,6 +218,15 @@
             this.tabPage3.Text = "设备首次登录初始化";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(92, 58);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(442, 15);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "首次登录需要初始化通讯录好友列表，初始化后才能获取好友列表";
+            // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(95, 113);
@@ -232,15 +236,6 @@
             this.button2.Text = "首次登录初始化";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(92, 58);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(442, 15);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "首次登录需要初始化通讯录好友列表，初始化后才能获取好友列表";
             // 
             // tabPage4
             // 
@@ -257,35 +252,15 @@
             this.tabPage4.Text = "获取好友列表";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // button7
             // 
-            this.button3.Location = new System.Drawing.Point(43, 41);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(169, 39);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "获取好友列表";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(247, 41);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(175, 39);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "获取群列表";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(43, 111);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(169, 37);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "获取公众号列表";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button7.Location = new System.Drawing.Point(43, 178);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(169, 36);
+            this.button7.TabIndex = 4;
+            this.button7.Text = "获取删除好友列表";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -297,15 +272,35 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button7
+            // button5
             // 
-            this.button7.Location = new System.Drawing.Point(43, 178);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(169, 36);
-            this.button7.TabIndex = 4;
-            this.button7.Text = "获取删除好友列表";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.button5.Location = new System.Drawing.Point(43, 111);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(169, 37);
+            this.button5.TabIndex = 2;
+            this.button5.Text = "获取公众号列表";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(247, 41);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(175, 39);
+            this.button4.TabIndex = 1;
+            this.button4.Text = "获取群列表";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(43, 41);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(169, 39);
+            this.button3.TabIndex = 0;
+            this.button3.Text = "获取好友列表";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // tabPage5
             // 
@@ -341,15 +336,12 @@
             this.tabPage6.Text = "好友信息同步";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // txt_contactSyncWxid
             // 
-            this.button9.Location = new System.Drawing.Point(58, 92);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(123, 33);
-            this.button9.TabIndex = 0;
-            this.button9.Text = "好友信息同步";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.txt_contactSyncWxid.Location = new System.Drawing.Point(138, 41);
+            this.txt_contactSyncWxid.Name = "txt_contactSyncWxid";
+            this.txt_contactSyncWxid.Size = new System.Drawing.Size(192, 25);
+            this.txt_contactSyncWxid.TabIndex = 2;
             // 
             // label6
             // 
@@ -360,12 +352,15 @@
             this.label6.TabIndex = 1;
             this.label6.Text = "好友wxid:";
             // 
-            // txt_contactSyncWxid
+            // button9
             // 
-            this.txt_contactSyncWxid.Location = new System.Drawing.Point(138, 41);
-            this.txt_contactSyncWxid.Name = "txt_contactSyncWxid";
-            this.txt_contactSyncWxid.Size = new System.Drawing.Size(192, 25);
-            this.txt_contactSyncWxid.TabIndex = 2;
+            this.button9.Location = new System.Drawing.Point(58, 92);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(123, 33);
+            this.button9.TabIndex = 0;
+            this.button9.Text = "好友信息同步";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // tabPage7
             // 
@@ -390,78 +385,15 @@
             this.tabPage7.Text = "通过好友验证";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
-            // label7
+            // button10
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(25, 34);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(82, 15);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "添加方式：";
-            // 
-            // txt_verWxid
-            // 
-            this.txt_verWxid.Location = new System.Drawing.Point(453, 34);
-            this.txt_verWxid.Name = "txt_verWxid";
-            this.txt_verWxid.Size = new System.Drawing.Size(169, 25);
-            this.txt_verWxid.TabIndex = 3;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(365, 37);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(54, 15);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "wxid：";
-            // 
-            // txt_verV1
-            // 
-            this.txt_verV1.Location = new System.Drawing.Point(113, 84);
-            this.txt_verV1.Name = "txt_verV1";
-            this.txt_verV1.Size = new System.Drawing.Size(169, 25);
-            this.txt_verV1.TabIndex = 5;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(25, 87);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(38, 15);
-            this.label9.TabIndex = 4;
-            this.label9.Text = "V1：";
-            // 
-            // txt_verTicket
-            // 
-            this.txt_verTicket.Location = new System.Drawing.Point(453, 84);
-            this.txt_verTicket.Name = "txt_verTicket";
-            this.txt_verTicket.Size = new System.Drawing.Size(169, 25);
-            this.txt_verTicket.TabIndex = 7;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(365, 87);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(70, 15);
-            this.label10.TabIndex = 6;
-            this.label10.Text = "ticket：";
-            // 
-            // txt_verAnticket
-            // 
-            this.txt_verAnticket.Location = new System.Drawing.Point(113, 140);
-            this.txt_verAnticket.Name = "txt_verAnticket";
-            this.txt_verAnticket.Size = new System.Drawing.Size(169, 25);
-            this.txt_verAnticket.TabIndex = 9;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(6, 143);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(102, 15);
-            this.label11.TabIndex = 8;
-            this.label11.Text = "antiticket：";
+            this.button10.Location = new System.Drawing.Point(113, 199);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(151, 37);
+            this.button10.TabIndex = 12;
+            this.button10.Text = "通过好友验证";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // txt_verContent
             // 
@@ -479,15 +411,69 @@
             this.label12.TabIndex = 10;
             this.label12.Text = "content：";
             // 
-            // button10
+            // txt_verAnticket
             // 
-            this.button10.Location = new System.Drawing.Point(113, 199);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(151, 37);
-            this.button10.TabIndex = 12;
-            this.button10.Text = "通过好友验证";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
+            this.txt_verAnticket.Location = new System.Drawing.Point(113, 140);
+            this.txt_verAnticket.Name = "txt_verAnticket";
+            this.txt_verAnticket.Size = new System.Drawing.Size(169, 25);
+            this.txt_verAnticket.TabIndex = 9;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(6, 143);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(102, 15);
+            this.label11.TabIndex = 8;
+            this.label11.Text = "antiticket：";
+            // 
+            // txt_verTicket
+            // 
+            this.txt_verTicket.Location = new System.Drawing.Point(453, 84);
+            this.txt_verTicket.Name = "txt_verTicket";
+            this.txt_verTicket.Size = new System.Drawing.Size(169, 25);
+            this.txt_verTicket.TabIndex = 7;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(365, 87);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(70, 15);
+            this.label10.TabIndex = 6;
+            this.label10.Text = "ticket：";
+            // 
+            // txt_verV1
+            // 
+            this.txt_verV1.Location = new System.Drawing.Point(113, 84);
+            this.txt_verV1.Name = "txt_verV1";
+            this.txt_verV1.Size = new System.Drawing.Size(169, 25);
+            this.txt_verV1.TabIndex = 5;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(25, 87);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(38, 15);
+            this.label9.TabIndex = 4;
+            this.label9.Text = "V1：";
+            // 
+            // txt_verWxid
+            // 
+            this.txt_verWxid.Location = new System.Drawing.Point(453, 34);
+            this.txt_verWxid.Name = "txt_verWxid";
+            this.txt_verWxid.Size = new System.Drawing.Size(169, 25);
+            this.txt_verWxid.TabIndex = 3;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(365, 37);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(54, 15);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "wxid：";
             // 
             // txt_verCode
             // 
@@ -496,8 +482,20 @@
             this.txt_verCode.Size = new System.Drawing.Size(169, 25);
             this.txt_verCode.TabIndex = 1;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(25, 34);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(82, 15);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "添加方式：";
+            // 
             // tabPage8
             // 
+            this.tabPage8.Controls.Add(this.button13);
+            this.tabPage8.Controls.Add(this.txt_msgid);
+            this.tabPage8.Controls.Add(this.label16);
             this.tabPage8.Controls.Add(this.button11);
             this.tabPage8.Controls.Add(this.txt_msgContext);
             this.tabPage8.Controls.Add(this.label14);
@@ -511,21 +509,15 @@
             this.tabPage8.Text = "发送消息";
             this.tabPage8.UseVisualStyleBackColor = true;
             // 
-            // label13
+            // button11
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(26, 28);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(47, 15);
-            this.label13.TabIndex = 0;
-            this.label13.Text = "wxid:";
-            // 
-            // txt_msgWxid
-            // 
-            this.txt_msgWxid.Location = new System.Drawing.Point(90, 25);
-            this.txt_msgWxid.Name = "txt_msgWxid";
-            this.txt_msgWxid.Size = new System.Drawing.Size(172, 25);
-            this.txt_msgWxid.TabIndex = 1;
+            this.button11.Location = new System.Drawing.Point(585, 24);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(134, 26);
+            this.button11.TabIndex = 4;
+            this.button11.Text = "发送文字消息";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // txt_msgContext
             // 
@@ -543,15 +535,38 @@
             this.label14.TabIndex = 2;
             this.label14.Text = "内容:";
             // 
-            // button11
+            // txt_msgWxid
             // 
-            this.button11.Location = new System.Drawing.Point(585, 24);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(134, 26);
-            this.button11.TabIndex = 4;
-            this.button11.Text = "发送文字消息";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
+            this.txt_msgWxid.Location = new System.Drawing.Point(90, 25);
+            this.txt_msgWxid.Name = "txt_msgWxid";
+            this.txt_msgWxid.Size = new System.Drawing.Size(172, 25);
+            this.txt_msgWxid.TabIndex = 1;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(26, 28);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(47, 15);
+            this.label13.TabIndex = 0;
+            this.label13.Text = "wxid:";
+            // 
+            // txt_outPut
+            // 
+            this.txt_outPut.Location = new System.Drawing.Point(13, 371);
+            this.txt_outPut.Multiline = true;
+            this.txt_outPut.Name = "txt_outPut";
+            this.txt_outPut.Size = new System.Drawing.Size(460, 231);
+            this.txt_outPut.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(21, 350);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(52, 15);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "输出：";
             // 
             // txt_unicode
             // 
@@ -588,6 +603,102 @@
             this.txt_Str.Size = new System.Drawing.Size(296, 118);
             this.txt_Str.TabIndex = 6;
             // 
+            // txt_msgid
+            // 
+            this.txt_msgid.Location = new System.Drawing.Point(90, 85);
+            this.txt_msgid.Name = "txt_msgid";
+            this.txt_msgid.Size = new System.Drawing.Size(172, 25);
+            this.txt_msgid.TabIndex = 6;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(26, 88);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(55, 15);
+            this.label16.TabIndex = 5;
+            this.label16.Text = "msgid:";
+            // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(294, 84);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(102, 26);
+            this.button13.TabIndex = 7;
+            this.button13.Text = "消息撤回";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // tabPage9
+            // 
+            this.tabPage9.Controls.Add(this.button15);
+            this.tabPage9.Controls.Add(this.txt_groupId);
+            this.tabPage9.Controls.Add(this.label18);
+            this.tabPage9.Controls.Add(this.button14);
+            this.tabPage9.Controls.Add(this.txt_groupIdList);
+            this.tabPage9.Controls.Add(this.label17);
+            this.tabPage9.Location = new System.Drawing.Point(4, 25);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage9.Size = new System.Drawing.Size(867, 305);
+            this.tabPage9.TabIndex = 8;
+            this.tabPage9.Text = "微信群";
+            this.tabPage9.UseVisualStyleBackColor = true;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(21, 26);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(79, 15);
+            this.label17.TabIndex = 0;
+            this.label17.Text = "wxidlist:";
+            // 
+            // txt_groupIdList
+            // 
+            this.txt_groupIdList.Location = new System.Drawing.Point(118, 26);
+            this.txt_groupIdList.Name = "txt_groupIdList";
+            this.txt_groupIdList.Size = new System.Drawing.Size(368, 25);
+            this.txt_groupIdList.TabIndex = 1;
+            this.txt_groupIdList.Text = "wxid_sdasd,wxid_dasdad";
+            // 
+            // button14
+            // 
+            this.button14.Location = new System.Drawing.Point(510, 26);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(107, 25);
+            this.button14.TabIndex = 2;
+            this.button14.Text = "创建群聊";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // txt_groupId
+            // 
+            this.txt_groupId.Location = new System.Drawing.Point(118, 73);
+            this.txt_groupId.Name = "txt_groupId";
+            this.txt_groupId.Size = new System.Drawing.Size(368, 25);
+            this.txt_groupId.TabIndex = 4;
+            this.txt_groupId.Text = "111@chatroom";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(21, 73);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(46, 15);
+            this.label18.TabIndex = 3;
+            this.label18.Text = "群ID:";
+            // 
+            // button15
+            // 
+            this.button15.Location = new System.Drawing.Point(510, 73);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(107, 25);
+            this.button15.TabIndex = 5;
+            this.button15.Text = "群聊加人";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
             // Demo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -606,10 +717,10 @@
             this.Name = "Demo";
             this.Text = "Android协议demo";
             this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             this.tabPage4.ResumeLayout(false);
@@ -620,6 +731,8 @@
             this.tabPage7.PerformLayout();
             this.tabPage8.ResumeLayout(false);
             this.tabPage8.PerformLayout();
+            this.tabPage9.ResumeLayout(false);
+            this.tabPage9.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -678,6 +791,16 @@
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.TextBox txt_Str;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.TextBox txt_msgid;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TabPage tabPage9;
+        private System.Windows.Forms.TextBox txt_groupIdList;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.TextBox txt_groupId;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Button button15;
     }
 }
 

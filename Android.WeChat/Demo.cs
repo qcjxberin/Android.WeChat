@@ -17,6 +17,26 @@ namespace Android.WeChat
             InitializeComponent();
         }
 
+        private string unicodeToString(string sIn)
+        {
+
+            //string sIn = "\\u4fc4\\u7f57\\u65af\\u536b\\u56fd\\u6218\\u4e89\\u9898\\u6750MV\\u300a\\u6700\\u7231";//转换前
+            string sOut = "";//转换后
+            try
+            {
+                string[] arr = sIn.Split(new string[] { "\\u" }, StringSplitOptions.RemoveEmptyEntries);
+                foreach (string s in arr)
+                {
+                    sOut += (char)Convert.ToInt32(s.Substring(0, 4), 16) + s.Substring(4);
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("转换失败,格式不正确，只能转换\\u 格式");
+            }
+            return sOut;
+        }
+
         private void btn_login_Click(object sender, EventArgs e)
         {
             var postData = $"username={txt_loginUserName.Text}";
@@ -106,16 +126,28 @@ namespace Android.WeChat
             txt_Str.Text = str;
         }
 
-        private string unicodeToString(string sIn)
+       
+        private void button13_Click(object sender, EventArgs e)
         {
-            //string sIn = "\\u4fc4\\u7f57\\u65af\\u536b\\u56fd\\u6218\\u4e89\\u9898\\u6750MV\\u300a\\u6700\\u7231";//转换前
-            string sOut = "";//转换后
-            string[] arr = sIn.Split(new string[] { "\\u" }, StringSplitOptions.RemoveEmptyEntries);
-            foreach (string s in arr)
-            {
-                sOut += (char)Convert.ToInt32(s.Substring(0, 4), 16) + s.Substring(4);
-            }
-            return sOut;
+            var postData = $"wxid={txt_msgWxid.Text}";
+            postData += $"&msgid={txt_msgid.Text}";
+            string res = Http.Post(App.HostUrl + "RevokeMsg", postData);
+            txt_outPut.Text = res;
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            var postData = $"wxidlist={txt_groupIdList.Text}";
+            string res = Http.Post(App.HostUrl + "CreateChatroom", postData);
+            txt_outPut.Text = res;
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            var postData = $"chatroomid={txt_groupId.Text}";
+            postData += $"&memberlist={txt_groupIdList.Text}";
+            string res = Http.Post(App.HostUrl + "AddChatroomMember", postData);
+            txt_outPut.Text = res;
         }
     }
 }
